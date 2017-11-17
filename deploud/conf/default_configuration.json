@@ -1,0 +1,26 @@
+{
+  "platform": "azure",
+  "markLogicVersion": "9.0-4",
+  "azure": {
+    "deploymentName": "mlcluster",
+    "adminUser": "admin",
+    "adminPassword": "admin",
+    "licensee": "none",
+    "licenseKey": "none",
+    "numOfNodes": 3,
+    "loadBalancer": "public",
+    "loadBalancerIPV6": "enable",
+    "oSStorage": "premium",
+    "dataStorage": "premium",
+    "virtualMachineUser": "admin",
+    "sshPublicKey": "",
+    "InstanceType": "Standard_DS13_v2",
+    "highAvailability": "enable",
+    "location": "eastus"
+  },
+  "aws": {},
+  "google": {},
+  "docker": {},
+  "kubernetes": {},
+  "mesos": {}
+}
